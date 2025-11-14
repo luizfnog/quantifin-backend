@@ -1,0 +1,48 @@
+# ------------------------------
+# Dependências FastAPI Backend
+# ------------------------------
+
+# Framework principal da API
+fastapi==0.115.0
+
+# Servidor de aplicação
+uvicorn[standard]==0.30.1
+
+# Cliente Supabase oficial
+supabase==2.3.3
+gotrue==2.4.2
+postgrest==0.13.0
+storage3==0.6.0
+
+# Manipulação de dados e previsões
+pandas==2.2.3
+numpy==2.1.2
+scikit-learn==1.5.2
+scipy==1.14.1
+joblib==1.4.2
+
+# Datas e janelas temporais
+python-dateutil==2.9.0.post0
+
+# Tipagem e validação de dados
+pydantic==2.9.2
+
+# Acesso ao PostgreSQL (usado indiretamente pelo supabase)
+psycopg[binary]==3.2.12
+
+# Logging estruturado (opcional, recomendado)
+loguru==0.7.2
+
+# --- Processamento de texto / Vetorização ---
+regex==2024.9.11
+
+# --- Utilidades e Logs ---
+python-dotenv==1.0.1
+rich==13.8.0
+
+# --- Testes e HTTP Clients (opcional) ---
+httpx==0.24.1
+requests==2.32.3
+
+# --- Tipagem e Desenvolvimento (opcional) ---
+mypy==1.11.2
