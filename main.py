@@ -33,7 +33,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "https://finpilot-nu.vercel.app",   # domínio do frontend (produção)
-        "http://localhost:5173",            # desenvolvimento React/Vite
+        "http://localhost:5173",            # desenvolvimento React/Vite::
         "http://localhost:8080",
         "http://127.0.0.1:8080",
         "https://sessional-supercapably-preston.ngrok-free.dev",
